@@ -1,6 +1,6 @@
 /* add your CSS here */
 body {
-	font-family: 'Exo 2', sans-serif;
+	font-family: "Exo 2", sans-serif;
 }
 
 div {
@@ -16,7 +16,7 @@ body > div {
 	background: linear-gradient(to bottom, #f6e6b4 21%,#ed9017 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6e6b4', endColorstr='#ed9017',GradientType=0 ); /* IE6-9 */
 	/*Centering the card*/
-	margin-left: auto;
+  	margin-left: auto;
   	margin-right: auto;
 }
 
@@ -40,7 +40,8 @@ img {
     font-size: 0.9rem;
 }
 
-img, #facts {
+img,
+#facts {
 	-webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.25);
 	-moz-box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
 	box-shadow: 5px 5px 5px rgba(0,0,0,0.25);
@@ -60,7 +61,7 @@ p, ul {
 	padding-right: 10px;
 }
 
-p:first-child {
+.interesting-fact {
 	font-style: italic;
 }
 
@@ -75,6 +76,6 @@ a {
 #photocredit {
 	font-size: 0.8rem;
 	text-align: center;
-	margin-top: 0px;
-	padding: 0px;
+	margin-top: 0;
+	padding: 0;
 }
